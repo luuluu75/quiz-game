@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Quiz Game</title>
-  <link rel="stylesheet" href="Assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Assets/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>JavaScript Quiz</title>
 </head>
 <body>
-
-  <div class="container">
-    <h1 class="welcome">Pop Quiz</h1>
-    <h2 id="countdown"></h1>
-    <h3 id="main"></h2>
-  </div>
-  <div id="quiz"></div>
-    <button id="start">Start</button>
-  <div id="results"></div>
-
-<script src="Assets/script.js"></script>
+    <header>
+        <h1 id="quiz-heading">JavaScript Quiz</h1>
+    </header>
+    <main>
+        <section id="quiz">
+            <div id="question-container"></div>
+            <div id="answers-container"></div>
+            <div id="timer"></div>
+            <div id="final-score-container"></div>
+        </section>
+        <section id="high-score-form"></section>
+        <section id="leaderboard"></section>
+        <section class="buttons-container">
+            <button id="leaderboard-button">Leaderboard</button>
+            <button id="start-quiz-button">Start Quiz</button>
+            <button id="home-button" style="display:none;">Home</button>
+        </section>
+    </main>
+    <script src="Assets/script.js"></script>
 </body>
 </html>
-
-<!-- user must answer a series of quiz questions--
-    -- on click of start button timer must start--
-    --if answer is correct, then next question displays--
-    --if answer is incorrect - time must be deducted from timer--
-    -- if all questions have been answered OR time runs out - end game--
-    --user is able to save initials and thier score--
