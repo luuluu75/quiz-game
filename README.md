@@ -7,5 +7,5 @@ This assignment was to to create a quiz using javascrpt logic and apply the foll
 - using timers and applying countdowns
 
 #Links to the assignment
- https://github.com/luuluu75/quiz-game
- https://luuluu75.github.io/quiz-game/
+- https://github.com/luuluu75/quiz-game
+- https://luuluu75.github.io/quiz-game/
